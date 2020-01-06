@@ -51,6 +51,22 @@ const PARAM_TYPE_MAP: {
     },
     convertInput: passThrough,
   },
+  '[hexString]': {
+    validate: function validate(value) {
+      if (!Array.isArray(value)) return false;
+      return value.every(function (element) {
+        return (0, _web3Utils.isHexStrict)(element);
+      });
+    },
+    convertOutput: function convertOutput(value) {
+      if (!Array.isArray(value)) return [];
+      return value.map(function (element) {
+        return (0, _web3Utils.toHex)(element);
+      });
+    },
+
+    convertInput: passThrough
+  },
   '[number]': {
     validate(value: any) {
       if (!Array.isArray(value)) return false;
