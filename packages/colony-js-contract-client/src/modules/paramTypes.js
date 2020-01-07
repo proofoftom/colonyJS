@@ -52,20 +52,15 @@ const PARAM_TYPE_MAP: {
     convertInput: passThrough,
   },
   '[hexString]': {
-    validate: function validate(value) {
+    validate(value: any) {
       if (!Array.isArray(value)) return false;
-      return value.every(function (element) {
-        return (0, _web3Utils.isHexStrict)(element);
-      });
+      return value.every(element => isHexStrict(element));
     },
-    convertOutput: function convertOutput(value) {
+    convertOutput(value: any) {
       if (!Array.isArray(value)) return [];
-      return value.map(function (element) {
-        return (0, _web3Utils.toHex)(element);
-      });
+      return value.map(element => toHex(element));
     },
-
-    convertInput: passThrough
+    convertInput: passThrough,
   },
   '[number]': {
     validate(value: any) {
