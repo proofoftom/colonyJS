@@ -2486,7 +2486,7 @@ export default class ColonyClient extends ContractClient {
       output: [['rewardInverse', 'bigNumber']],
     });
     this.addCaller('getRewardPayoutInfo', {
-      input: [['payoutId'], 'number'],
+      input: [['payoutId', 'number']],
       output: [
         ['reputationState', 'string'],
         ['colonyWideReputation', 'bigNumber'],
