@@ -8,7 +8,7 @@ import type BigNumber from 'bn.js';
 import ContractClient from '@tommycox/colony-js-contract-client';
 import { isValidAddress } from '@colony/colony-js-utils';
 // eslint-disable-next-line max-len
-import type { ContractClientConstructorArgs } from '@colony/colony-js-contract-client';
+import type { ContractClientConstructorArgs } from '@tommycox/colony-js-contract-client';
 
 import ColonyNetworkClient from '../ColonyNetworkClient/index';
 import TokenClient from '../TokenClient/index';

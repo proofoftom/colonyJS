@@ -6,7 +6,7 @@ import type {
   ContractResponse,
   MultisigOperationConstructorArgs,
   SendOptions,
-} from '@colony/colony-js-contract-client';
+} from '@tommycox/colony-js-contract-client';
 
 import './paramTypes';
 

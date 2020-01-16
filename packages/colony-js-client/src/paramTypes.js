@@ -2,7 +2,7 @@
 
 import { isBigNumber } from '@colony/colony-js-utils';
 import { isHexStrict, hexToNumber } from 'web3-utils';
-import { addParamType } from '@colony/colony-js-contract-client';
+import { addParamType } from '@tommycox/colony-js-contract-client';
 
 import {
   COLONY_ROLES,

@@ -3,7 +3,7 @@
 
 import ContractClient from '@tommycox/colony-js-contract-client';
 // eslint-disable-next-line max-len
-import type { ContractMethodSenderArgs } from '@colony/colony-js-contract-client';
+import type { ContractMethodSenderArgs } from '@tommycox/colony-js-contract-client';
 
 import {
   COLONY_ROLE_ARCHITECTURE_SUBDOMAIN,
@@ -12,7 +12,7 @@ import {
   FUNDING_POT_TYPE_DOMAIN,
   FUNDING_POT_TYPE_PAYMENT,
   FUNDING_POT_TYPE_TASK,
-  REWARDS_POT_ID
+  REWARDS_POT_ID,
 } from '../../constants';
 
 import type { ColonyClient } from '../../index';
