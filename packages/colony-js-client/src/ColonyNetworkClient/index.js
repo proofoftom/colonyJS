@@ -6,7 +6,7 @@ import 'isomorphic-fetch';
 import assert from 'assert';
 import BigNumber from 'bn.js';
 
-import ContractClient from '@colony/colony-js-contract-client';
+import ContractClient from '@tommycox/colony-js-contract-client';
 import { isValidAddress } from '@colony/colony-js-utils';
 
 import ColonyClient from '../ColonyClient/index';

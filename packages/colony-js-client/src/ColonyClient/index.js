@@ -5,7 +5,7 @@ import assert from 'assert';
 
 import type BigNumber from 'bn.js';
 
-import ContractClient from '@colony/colony-js-contract-client';
+import ContractClient from '@tommycox/colony-js-contract-client';
 import { isValidAddress } from '@colony/colony-js-utils';
 // eslint-disable-next-line max-len
 import type { ContractClientConstructorArgs } from '@colony/colony-js-contract-client';

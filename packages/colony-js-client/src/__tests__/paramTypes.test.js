@@ -2,7 +2,7 @@
 /* eslint-disable no-underscore-dangle */
 
 import BigNumber from 'bn.js';
-import ContractClient from '@colony/colony-js-contract-client';
+import ContractClient from '@tommycox/colony-js-contract-client';
 import createSandbox from 'jest-sandbox';
 import { padLeft } from 'web3-utils';
 

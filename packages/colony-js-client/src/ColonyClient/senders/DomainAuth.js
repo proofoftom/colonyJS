@@ -1,7 +1,7 @@
 /* @flow */
 /* eslint-disable no-underscore-dangle */
 
-import ContractClient from '@colony/colony-js-contract-client';
+import ContractClient from '@tommycox/colony-js-contract-client';
 // eslint-disable-next-line max-len
 import type { ContractMethodSenderArgs } from '@colony/colony-js-contract-client';
 

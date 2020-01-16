@@ -3,7 +3,7 @@
 
 import assert from 'assert';
 import BigNumber from 'bn.js';
-import ContractClient from '@colony/colony-js-contract-client';
+import ContractClient from '@tommycox/colony-js-contract-client';
 import { isBigNumber } from '@colony/colony-js-utils';
 
 import type ColonyClient from '../index';

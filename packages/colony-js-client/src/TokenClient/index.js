@@ -2,7 +2,7 @@
 /* eslint-disable import/no-cycle */
 
 import BigNumber from 'bn.js';
-import ContractClient from '@colony/colony-js-contract-client';
+import ContractClient from '@tommycox/colony-js-contract-client';
 import CreateTokenAuthority from './senders/CreateTokenAuthority';
 import GetTokenInfo from './callers/GetTokenInfo';
 

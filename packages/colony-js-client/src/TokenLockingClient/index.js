@@ -2,7 +2,7 @@
 
 import BigNumber from 'bn.js';
 
-import ContractClient from '@colony/colony-js-contract-client';
+import ContractClient from '@tommycox/colony-js-contract-client';
 
 type Address = string;
 type AnyAddress = string;

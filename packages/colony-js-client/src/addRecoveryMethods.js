@@ -1,6 +1,6 @@
 /* @flow */
 
-import ContractClient from '@colony/colony-js-contract-client';
+import ContractClient from '@tommycox/colony-js-contract-client';
 
 /*
  * Add methods from `IRecovery.sol` to a given `ContractClient`.
