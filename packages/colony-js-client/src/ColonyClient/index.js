@@ -464,7 +464,7 @@ export default class ColonyClient extends ContractClient {
   claimRewardPayout: ColonyClient.Sender<
     {
       payoutId: number, // The ID of the payout.
-      squareRoots: Array<number>, // The square roots of values used in the equation.
+      squareRoots: Array<bigNumber>, // The square roots of values used in the equation.
       key: string, // The key of the element that the proof is for.
       value: string, // The value of the element that the proof is for.
       branchMask: hexString, // The branchmask of the proof.
@@ -2666,7 +2666,7 @@ export default class ColonyClient extends ContractClient {
     this.addSender('claimRewardPayout', {
       input: [
         ['payoutId', 'number'],
-        ['squareRoots', '[number]'],
+        ['squareRoots', '[bigNumber]'],
         ['key', 'string'],
         ['value', 'string'],
         ['branchMask', 'hexString'],
